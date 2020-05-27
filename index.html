@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html itemscope="" itemtype="http://schema.org/WebPage" lang="en-GB">
+<head>
+    <style>
+        html, body {
+            height: auto%;
+            width: 100%;
+        }
+        .center {
+            position: fixed;
+            top: 35%;
+            left: 50%;
+            margin-top: -50px;
+            margin-left: -100px;
+            display: flex;
+            justify-content: center;
+        }
+        .subcenter {
+            margin: 10px auto;
+            display: flex;
+            justify-content: center;
+        }
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        li {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        .left-nav {
+            float:left;
+        }
+        .right-nav {
+            float:right;
+        }
+        a {
+            color: #000;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .subfooter {
+            position:fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(230, 230, 230);
+            color: white;
+            border-style: solid;
+            border-color: gray;
+            border-width: 1px;
+            margin-bottom: 20px;
+        }
+        .footer {
+            position: fixed;
+            left: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgb(230, 230, 230);
+            color: white;
+            border-style: solid;
+            border-color: gray;
+            border-width: 1px;
+        }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <ul>
+            <li class="left-nav"><a href="#">About</a></li>
+            <li class="left-nav"><a href="#">Store</a></li>
+            <li class="right-nav"><a href="#">Gmail</a></li>
+            <li class="right-nav"><a href="#">Images</a></li>
+          </ul> 
+    </div>
+    <div class="center">
+        <container>
+            <div id="image" class="subcenter">
+                <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
+            </div>
+            <div id="search" class="subcenter">
+                <input type="search" id="gsearch" name="gsearch"> 
+            </div>
+            <div id="buttons" class="subcenter">
+                <button type="button">Google Search</button>
+                <button type="button">I'm Feeling Lucky</button> 
+            </div>
+        </container>
+    </div>
+    <div class="subfooter">
+        <ul>
+            <li class="left-nav"><a href="#">United Kingdom</a></li>
+          </ul> 
+    </div>
+    <div class="footer">
+        <ul>
+            <li class="left-nav"><a href="#">Advertising</a></li>
+            <li class="left-nav"><a href="#">Business</a></li>
+            <li class="left-nav"><a href="#">How Search Works</a></li>
+            <li class="right-nav"><a href="#">Privacy</a></li>
+            <li class="right-nav"><a href="#">Terms</a></li>
+            <li class="right-nav"><a href="#">Settings</a></li>
+          </ul> 
+    </div>
+</body>
+</html>
